@@ -1,0 +1,114 @@
+.navbar {  
+    position: fixed; /* Agrega esta línea */
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    
+    
+}
+
+/* Logo de la navbar */
+.navbar .logo {
+    width: 150px;
+}
+
+/* Menú de la navbar */
+.navbar-menu {
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    color: rgb(0, 51, 52);
+    font-size: 18px;
+}
+
+/* Botones y elementos del lado derecho */
+.navbar-right {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.navbar button {  
+    background: transparent;
+    color: rgb(0, 51, 52);
+    border: 1px solid tomato;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.3s;
+    padding: 7px 20px;
+    font-weight: bold;
+    
+}
+.navbar button p{
+    margin-bottom: 0rem;
+}
+
+.navbar button:hover {
+    background-color: rgba(3, 109, 110, 0.654);
+}
+
+/* Clase para el enlace activo */
+.navbar .active {
+    padding-bottom: 2px;
+    border-bottom: 2px solid #49557e;
+}
+
+/* Icono de búsqueda */
+.nav-search-icon {
+    position: relative;
+}
+
+.nav-search-icon .dot {
+    position: absolute;
+    min-width: 10px;
+    min-height: 10px;
+    background-color: tomato;
+    border-radius: 5px;
+    top: 8px;
+    right: -8px;
+}
+
+/* Estilos responsivos */
+@media (max-width: 1050px) {
+    .navbar .logo {
+        width: 140px;
+    }
+    .navbar-menu {
+        gap: 20px;
+        font-size: 17px;
+    }
+    .navbar-right {
+        gap: 30px;
+    }
+}
+
+@media (max-width: 900px) {
+    .navbar .logo {
+        width: 120px;
+    }
+    .navbar-menu {
+        gap: 15px;
+        font-size: 16px;
+    }
+    .navbar-right {
+        gap: 20px;
+    }
+    .navbar button {
+        padding: 7px 20px;
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 750px) {
+    .navbar-menu {
+        display: none;
+    }
+}

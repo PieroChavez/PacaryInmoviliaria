@@ -1,0 +1,57 @@
+
+  
+  /* Estilo del contenedor de comentarios */
+  .review-container {
+    width: 90%;
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #202020;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+  }
+  
+  /* Título */
+  .review-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #ff6f61;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  /* Estilo de cada tarjeta de comentario */
+  .review-card {
+    background-color: #2a2a2a;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Cabecera del comentario */
+  .review-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .review-header h3 {
+    font-size: 1.2rem;
+    color: #ff6f61;
+  }
+  
+  /* Estrellas */
+  .review-header span {
+    font-size: 1.2rem;
+    color: #ffd700;
+  }
+  
+  /* Texto del comentario */
+  .review-text {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #ccc;
+  }
+  

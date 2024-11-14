@@ -1,0 +1,68 @@
+/* Estilo para el contenedor del buscador */
+.search-bar {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    background-color: #f5f5f5;
+    border-radius: 25px;
+    padding: 1px 3px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Input de búsqueda */
+  .search-input {
+    flex: 1;
+    padding: 3px 18px;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    background-color: #ffffff;
+    color: #333;
+    font-size: 14px;
+    transition: background-color 0.2s ease;
+  }
+  
+  /* Input al hacer hover o focus */
+  .search-input:hover,
+  .search-input:focus {
+    background-color: #eaeaea;
+  }
+  
+  /* Botón de búsqueda */
+ /* Botón de búsqueda con tamaño ajustado */
+.search-button {
+    width: 36px; /* Ajusta el ancho */
+    height: 36px; /* Ajusta la altura */
+    background: #ffc107;
+    border: none;
+    padding: 4px; /* Ajusta el padding si es necesario */
+    border-radius: 50%;
+    cursor: pointer;
+    transition: transform 0.2s ease, background-color 0.2s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Imagen de la lupa */
+  .search-icon {
+    width: 5px; /* Tamaño de la imagen */
+    height: 10px;
+  }
+  
+  
+ 
+  
+  /* Efecto al pasar el cursor sobre el botón */
+  .search-button:hover {
+    background-color: #ff9800;
+    transform: scale(1.1);
+  }
+  
+  /* Responsive: Ocultar input en pantallas pequeñas */
+  @media (max-width: 970px) {
+    .search-input {
+      display: none;
+    }
+  }
+  
