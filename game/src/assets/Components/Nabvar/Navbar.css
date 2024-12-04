@@ -1,0 +1,35 @@
+/* Estilos únicos para Navbar */
+.navbar-conten {
+    position: fixed; /* Fija el navbar en la parte superior */
+    top: 0; /* Alineado al borde superior */
+    left: 0; /* Alineado al borde izquierdo */
+    width: 100%; /* Ocupa el ancho completo de la página */
+    z-index: 1000; /* Asegura que esté encima de otros elementos */
+  }
+  
+  .navbar {
+    background-color: #f8f9fa; /* Color de fondo claro */
+    border-bottom: 1px solid #dee2e6; /* Línea inferior para estilo */
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #343a40; /* Color del texto */
+  }
+  
+  .navbar-nav .nav-link {
+    font-size: 1rem;
+    color: #495057; /* Color de los enlaces */
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #007bff; /* Color del enlace al pasar el cursor */
+  }
+  
+  .navbar-nav .nav-link.active {
+    color: #007bff; /* Color del enlace activo */
+    font-weight: bold;
+  }
+  

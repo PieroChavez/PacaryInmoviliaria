@@ -1,0 +1,28 @@
+.nosotros-container {
+    margin-top: 80px; /* Para evitar superposición con el navbar */
+  }
+  
+  .carousel img {
+    object-fit: cover;
+    height: 500px;
+  }
+  
+  .carousel-caption {
+    background: rgba(0, 0, 0, 0.6); /* Fondo semitransparente para el texto */
+    padding: 15px;
+    border-radius: 8px;
+  }
+  
+  .nosotros-collage {
+    padding: 20px;
+  }
+  
+  .nosotros-collage img {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para las imágenes */
+    transition: transform 0.3s ease;
+  }
+  
+  .nosotros-collage img:hover {
+    transform: scale(1.05); /* Efecto de zoom al pasar el cursor */
+  }
+  
