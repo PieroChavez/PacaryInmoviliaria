@@ -1,0 +1,85 @@
+body {
+    font-family: "Arial", sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+  }
+  
+  /* General container */
+  .preventa-container {
+    padding: 20px;
+    background: linear-gradient(120deg, #4c86de, #6ec1e4);
+    color: #fff;
+    min-height: 100vh;
+  }
+  
+  .preventa-title {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    animation: fadeInDown 1s ease;
+  }
+  
+  /* Grid for terrenos */
+  .terrenos-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  /* Card styles */
+  .terreno-card {
+    background: #fff;
+    color: #333;
+    border-radius: 8px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .terreno-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 12px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .terreno-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  /* Terreno information */
+  .terreno-info {
+    padding: 15px;
+  }
+  
+  .terreno-info h3 {
+    margin: 10px 0;
+    font-size: 1.2rem;
+    color: #444;
+  }
+  
+  .terreno-info p {
+    margin: 5px 0;
+    font-size: 1rem;
+  }
+  
+  .terreno-price {
+    font-size: 1.3rem;
+    color: #2b9348;
+    font-weight: bold;
+  }
+  
+  /* Animations */
+  @keyframes fadeInDown {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  

@@ -7,25 +7,26 @@ import Home from './assets/pages/Home/Home';
 import Nosotros from './assets/pages/Nosotros/Nosotros';
 import Contacto from './assets/pages/Contacto/Contacto';
 import Preventa from './assets/pages/Preventa/Preventa';
+
 function App() {
   return (
-    <>
     <Router>
       <div>
-        <Navbar />
+        {/* La barra de navegación permanece fija en todas las páginas */}
+        <Navbar />  
         
+        {/* Definición de las rutas */}
         <Routes>
-          <Route path="/Home" element={<Home />} />
+          <Route path="/" element={<Home />} /> 
           <Route path="/Nosotros" element={<Nosotros />} />
           <Route path="/Contacto" element={<Contacto />} />
-          <Route path='/Preventa' element={<Preventa />} />
-          
+          <Route path="/Preventa" element={<Preventa />} />
         </Routes>
-        
-        <Footer />       
+
+        {/* El pie de página permanece fijo en todas las páginas */}
+        <Footer />
       </div>
     </Router>
-    </>
   );
 }
 

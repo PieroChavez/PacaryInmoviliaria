@@ -142,11 +142,11 @@ a:hover {
     height: 100vh;
     animation: none;
   }
- /*  .article__img {
+  .article__img {
     animation: brighten both linear;
     animation-timeline: --article;
     animation-range: entry 0% entry 50%;
-  }*/
+  }
   .article__img img {
     animation: clip-out both linear;
     animation-timeline: --article;
