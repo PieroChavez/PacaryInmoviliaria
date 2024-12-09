@@ -1,9 +1,5 @@
 
   
-
- 
-  
-  
   /* FORMULARIO =================================== */
   
   .form_wrap {
@@ -25,7 +21,6 @@
     position: absolute;
     top: 0;
     left: 0;
-    background: #4091EC;
     opacity: 0.9;
   }
   
@@ -142,3 +137,64 @@
     background: #3371B6;
   }
   
+
+
+  /* Ajustes para pantallas más pequeñas */
+@media (max-width: 768px) {
+  .form_wrap {
+    flex-direction: column;
+    width: 90%;
+    height: auto;
+  }
+
+  .cantact_info {
+    width: 100%;
+    height: 200px; /* Ajusta según el diseño deseado */
+    background-size: cover;
+    background-position: center center;
+  }
+
+  form.form_contact {
+    width: 100%;
+    padding: 20px;
+  }
+
+  form.form_contact h2 {
+    font-size: 20px;
+  }
+
+  form.form_contact input,
+  form.form_contact textarea {
+    font-size: 14px;
+  }
+
+  form.form_contact input[type="button"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .info_title h2 {
+    font-size: 25px;
+  }
+
+  .info_items p {
+    font-size: 14px;
+  }
+
+  .info_items p span {
+    font-size: 20px;
+  }
+
+  form.form_contact input,
+  form.form_contact textarea {
+    font-size: 12px;
+  }
+
+  form.form_contact input[type="button"] {
+    padding: 8px;
+    font-size: 12px;
+  }
+}

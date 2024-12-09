@@ -1,17 +1,16 @@
-// eslint-disable-next-line no-unused-vars
 import React from 'react';
 import './Contacto.css';
+import tuImagen from '../../images/rueda_img/veintiuno.jpg'; // Cambia a tu ruta
 
 const Contacto = () => {
   return (
     <div className='contacto container'>
-      <h1>Saludos</h1>
+      <h1></h1>
       
       <section className="form_wrap">
-        <section className="cantact_info">
+        <section className="cantact_info" style={{ backgroundImage: `url(${tuImagen})` }}>
           <section className="info_title">
             <span className="fa fa-user-circle"></span>
-            <h2>INFORMACION<br/>DE CONTACTO</h2>
           </section>
           <section className="info_items">
             <p><span className="fa fa-envelope"></span> info.contact@gmail.com</p>
@@ -40,6 +39,6 @@ const Contacto = () => {
       </section>
     </div>
   );
-}
+};
 
 export default Contacto;
