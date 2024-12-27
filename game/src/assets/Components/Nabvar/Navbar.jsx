@@ -23,7 +23,7 @@ function Navbar() {
           </button>
           <a className="navbar-brand" >
           
-            <Link className="nav-link active" to="/">  DELARE   </Link>
+            <Link className="nav-link active" to="/">  PAQARI   </Link>
 
           </a>
           <div className="collapse navbar-collapse" id="navbarTogglerDemo03">

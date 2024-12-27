@@ -7,29 +7,29 @@ const Portada = () => {
     {
       id: 1,
       imgSrc: pa_images[0],
-      title: 'CSS Scroll Animations',
-      description: 'Check out this rad demo',
+      title: 'LAGUNA AZUL',
+      description: 'Es un paraíso natural que ofrece un atractivo único para inversores en busca de proyectos turísticos y residenciales. Ideal para el ecoturismo y el desarrollo de actividades recreativas',
       link: '#'
     },
     {
       id: 2,
-      imgSrc: pa_images[1],
-      title: 'Animate on scroll',
-      description: 'Works with media queries too',
+      imgSrc: pa_images[4],
+      title: 'NATURALEZA - RELAJACION',
+      description: 'El distrito el Sauce es un paraíso natural caracterizado por paisajes de gran belleza: bosques nativos, lagunas, montañas, fauna, senderos y turismo de naturaleza, aguas termales, riqueza paisajística, clima templado. Este entorno natural es ideal para quienes buscan un refugio en la naturaleza, con paisajes tranquilos y una gran biodiversidad.',
       link: '#'
     },
     {
       id: 3,
-      imgSrc: pa_images[2],
-      title: 'Parallax Effects',
-      description: 'Tweak your timings',
+      imgSrc: pa_images[9],
+      title: 'AVENTURA - ACTIVIDADES ',
+      description: 'En la laguna azul-Sauce, la adrenalina y la naturaleza se fusionan para ofrecer una experiencia única de deportes de aventura y extremo: canopy, kayak, trekking, descensos a rapel, visitas a cavernas, navegación en lagunas, pesca deportiva, etc. Estos deportes ofrecen una dosis de aventura que se combina perfectamente con la serenidad del paisaje.',
       link: '#'
     },
     {
       id: 4,
       imgSrc: pa_images[3],
-      title: 'Drive Keyframes',
-      description: 'CSS alone and...',
+      title: 'CASA BIOHUERTO - BIENESTAR',
+      description: 'En PAQARI tienes la oportunidad de construir tu casa Biohuerto en medio de la naturaleza es un refugio perfecto para aquellos que buscan una conexión profunda con el entorno natural y un estilo de vida sostenible. La arquitectura respeta el entorno, utilizando materiales rústicos, que permiten la integración con el paisaje.',
       link: '#'
     },
     {

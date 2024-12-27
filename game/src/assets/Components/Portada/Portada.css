@@ -27,7 +27,7 @@ body::before {
 
 
 article {
-  max-width: 100vw;
+  max-width: 90vw;
   height: 100vh;
   display: grid; 
   /*  grid-template-rows: calc(100vh - var(--info-size)) var(--info-size);*/
