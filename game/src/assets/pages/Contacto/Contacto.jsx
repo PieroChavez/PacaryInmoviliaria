@@ -12,10 +12,7 @@ const Contacto = () => {
           <section className="info_title">
             <span className="fa fa-user-circle"></span>
           </section>
-          <section className="info_items">
-            <p><span className="fa fa-envelope"></span> info.contact@gmail.com</p>
-            <p><span className="fa fa-mobile"></span> +1(585) 902-8665</p>
-          </section>
+
         </section>
 
         <form action="" className="form_contact">

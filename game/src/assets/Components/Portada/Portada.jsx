@@ -27,44 +27,44 @@ const Portada = () => {
     },
     {
       id: 4,
-      imgSrc: pa_images[3],
+      imgSrc: pa_images[10],
       title: 'CASA BIOHUERTO - BIENESTAR',
       description: 'En PAQARI tienes la oportunidad de construir tu casa Biohuerto en medio de la naturaleza es un refugio perfecto para aquellos que buscan una conexión profunda con el entorno natural y un estilo de vida sostenible. La arquitectura respeta el entorno, utilizando materiales rústicos, que permiten la integración con el paisaje.',
       link: '#'
     },
     {
       id: 5,
-      imgSrc: pa_images[4],
-      title: 'Extra Slides',
-      description: 'More content because...',
+      imgSrc: pa_images[1],
+      title: 'UBICACION ESTRATEGICA',
+      description: 'Paqari se ubica a 3 minutos de la imponente laguna azul, ideal para quienes buscan estar cerca del corazón de la naturaleza sin renunciar a la comodidad. Con acceso rápido y directo, la propiedad permite disfrutar de la tranquilidad del entorno sin estar alejado de los servicios esenciales.',
       link: '#'
     },
     {
       id: 6,
       imgSrc: pa_images[5],
-      title: 'Resize Window',
-      description: 'Try resizing the window',
+      title: 'OPORTUNIDAD DE NEGOCIOS RENTABLES',
+      description: 'En PAQARI tienes la oportunidad de capitalizar con el gran potencial turístico en constante crecimiento que presenta el Sauce por experiencias de ecoturismo y turismo de aventura donde ofrece oportunidades para proyectos de alojamientos ecológicos, glampings y cabañas sustentables.',
       link: '#'
     },
     {
       id: 7,
-      imgSrc: pa_images[6],
-      title: 'Browser support',
-      description: "You'll need to be in Chrome",
+      imgSrc: pa_images[5],
+      title: 'LOTES PANORAMICOS',
+      description: "PAQARI te brinda lotes amplios desde 300 m2 con impresionantes vistas panorámicas y son una verdadera joya para quienes buscan disfrutar de la serenidad del campo en conexión con la naturaleza y el cantico de las aves. ",
       link: '#'
     },
     {
       id: 8,
       imgSrc: pa_images[7],
-      title: 'Your idea',
-      description: 'What would you make?',
+      title: 'RENACER - ETERNIDAD',
+      description: 'En PAQARI despertar cada mañana con la eterna vista a la laguna azul es sumergirse en una experiencia de renovación profunda. El paisaje invita a dejar atrás las preocupaciones del mundo acelerado, mientras el aire puro, la quietud del agua y la majestuosidad de los bosques restauran  el alma permitiendo el equilibrio que tu vida necesita.',
       link: '#'
     },
     {
       id: 9,
       imgSrc: pa_images[8],
-      title: 'Fork',
-      description: 'Fork this and make it your own!',
+      title: 'SEGURIDAD LEGAL',
+      description: 'Tu inversión en PAQARI está respaldada por una seguridad legal',
       link: '#'
     },
     

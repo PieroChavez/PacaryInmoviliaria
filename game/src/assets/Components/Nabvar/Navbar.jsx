@@ -29,7 +29,7 @@ function Navbar() {
           <div className="collapse navbar-collapse" id="navbarTogglerDemo03">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               
-              <Link className="nav-link active" to="/preventa">  Preventa   </Link>
+              <Link className="nav-link active" to="/preventa">  Proyectos  </Link>
               <Link className="nav-link active" to="/contacto">Contacto        </Link>
               <Link className="nav-link active" to="/nosotros">  Nosotros</Link>
              

@@ -8,9 +8,12 @@ const Footer = () => {
       <div className="footer-container">
         {/* Sección de información de contacto */}
         <div className="footer-section">
-          <h3>Sobre Nosotros</h3>
+          <h3>Nosotros</h3>
           <p>
-            Somos una empresa líder en bienes raíces, dedicada a ayudarte a encontrar la propiedad de tus sueños.
+          Somos una empresa inmobiliaria enfocada en crear comunidades o complejos residenciales
+con énfasis en la sostenibilidad (uso de energías renovables, manejo de aguas pluviales,
+arquitectura verde), atendiendo a la creciente demanda por vivir de manera responsable con el
+medio ambiente
           </p>
         </div>
 
@@ -29,9 +32,9 @@ const Footer = () => {
         <div className="footer-section">
           <h3>Contáctanos</h3>
           <ul>
-            <li><strong>Teléfono:</strong> +34 123 456 789</li>
-            <li><strong>Email:</strong> info@inmobiliaria.com</li>
-            <li><strong>Dirección:</strong> Calle Ejemplo 123, Madrid, España</li>
+            <li><strong>Teléfono:</strong> +51 962387203   </li>
+            <li><strong>Email:</strong> ecoresidencialpaqari@gmail.com      </li>
+            <li><strong>Dirección:</strong> Distrito de Sauce - Jaen - Cajamarca - Peru</li>
           </ul>
         </div>
 
@@ -45,7 +48,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="footer-bottom">
-        <p>&copy; {new Date().getFullYear()} Inmobiliaria Ejemplo. Todos los derechos reservados.</p>
+        <p>&copy; {new Date().getFullYear()} Grupo Delare. Todo los derechos reservados</p>
       </div>
     </footer>
   );

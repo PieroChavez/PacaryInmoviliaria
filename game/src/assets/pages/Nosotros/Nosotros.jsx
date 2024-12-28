@@ -2,6 +2,7 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css"; // Bootstrap para el carrusel y el diseño
 import "./Nosotros.css"; // Archivo CSS personalizado
+import pa_images from "../../images/pacari_off/pa";
 
 const Nosotros = () => {
   return (
@@ -11,14 +12,11 @@ const Nosotros = () => {
         <div className="carousel-inner">
           <div className="carousel-item active">
             <img
-              src="https://picsum.photos/1920/1080?random=11"
+              src={pa_images[10]}
               className="d-block w-100"
-              alt="Imagen 1"
+              
             />
-            <div className="carousel-caption d-none d-md-block">
-              <h5>Compromiso con la excelencia</h5>
-              <p>Nuestra misión es construir un futuro sólido para todos.</p>
-            </div>
+            
           </div>
           <div className="carousel-item">
             <img

@@ -8,7 +8,7 @@ import  siete   from '../pacari_off/DSC00249.jpg';
 import  ocho   from '../pacari_off/DSC00252.jpg';
 import  nueve  from '../pacari_off/DSC00268.jpg';
 import diez from '../pacari_off/foto001_1.jpg'
-
+import once from '../pacari_off/DSC00777.jpg'
 
 const pa_images = [
     uno,
@@ -20,7 +20,8 @@ const pa_images = [
     siete,
     ocho,
     nueve,
-    diez
+    diez,
+    once
 ]
 
 export default pa_images
