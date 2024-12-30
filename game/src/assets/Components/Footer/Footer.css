@@ -1,75 +1,70 @@
 /* Estilos generales para el footer */
-.footer-inmobiliaria {
+.footer-inmobiliaria-unique {
 	background-color: #343a40; /* Fondo oscuro */
 	color: #f8f9fa; /* Texto claro */
 	padding: 2rem;
 	position: absolute;
 	width: 100%; /* Ocupa el ancho completo de la página */
+	z-index: 1000; /* Asegura que esté encima de otros elementos */
+}
 
-
-	/* position: fixed;  Fija el navbar en la parte superior */
-    z-index: 1000; /* Asegura que esté encima de otros elementos */
-
-  }
-  
-  .footer-container {
+.footer-container-unique {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
 	gap: 1rem;
 	max-width: 1200px;
 	margin: 0 auto;
-  }
-  
-  /* Estilo para las secciones individuales */
-  .footer-section {
+}
+
+/* Estilo para las secciones individuales */
+.footer-section-unique {
 	flex: 1;
 	min-width: 250px;
-  }
-  
-  .footer-section h3 {
+}
+
+.footer-section-unique h3 {
 	font-size: 1.2rem;
 	margin-bottom: 1rem;
-  }
-  
-  .footer-section ul {
+}
+
+.footer-section-unique ul {
 	list-style: none;
 	padding: 0;
-  }
-  
-  .footer-section ul li {
+}
+
+.footer-section-unique ul li {
 	margin-bottom: 0.5rem;
-  }
-  
-  .footer-section ul li a {
+}
+
+.footer-section-unique ul li a {
 	color: #f8f9fa;
 	text-decoration: none;
 	transition: color 0.3s;
-  }
-  
-  .footer-section ul li a:hover {
+}
+
+.footer-section-unique ul li a:hover {
 	color: #007bff;
-  }
-  
-  /* Redes sociales */
-  .social-media a {
+}
+
+/* Redes sociales */
+.footer-section-social-unique a {
 	display: inline-block;
 	margin-right: 0.5rem;
 	color: #f8f9fa;
 	text-decoration: none;
 	transition: color 0.3s;
-  }
-  
-  .social-media a:hover {
+}
+
+.footer-section-social-unique a:hover {
 	color: #007bff;
-  }
-  
-  /* Sección inferior del footer */
-  .footer-bottom {
+}
+
+/* Sección inferior del footer */
+.footer-bottom-unique {
 	text-align: center;
 	margin-top: 2rem;
 	font-size: 0.9rem;
 	border-top: 1px solid #495057;
 	padding-top: 1rem;
-  }
-  
+}
