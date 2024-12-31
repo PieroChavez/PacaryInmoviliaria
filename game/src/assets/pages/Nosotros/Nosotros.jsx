@@ -64,27 +64,7 @@ const Nosotros = () => {
             </div>
           </div>
         </div>
-        <div className="card video">
-          <div className="card-inner">
-            <div className="box">
-              <div className="videoBox poster">
-                <iframe
-                  width="100%"
-                  height="100%"
-                  src="https://www.youtube.com/embed/5D8TBicNIb8?si=x658Sysm10QHsnof&amp;controls=0"
-                  title="YouTube video player"
-                  frameBorder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  referrerPolicy="strict-origin-when-cross-origin"
-                  allowFullScreen
-                ></iframe>
-              </div>
-              <div className="tag">
-                <a href="#">#Pet friendly</a>
-              </div>
-            </div>
-          </div>
-        </div>
+       
         <div className="card">
           <p>
             <a href="#">More about tours</a>
